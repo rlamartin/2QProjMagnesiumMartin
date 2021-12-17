@@ -154,7 +154,15 @@ div.column1 > h1, h4{
 	width:90%;
 	margin-left: 40px;
 }
-
+.iframe-container1{
+	float:right;
+	width:45%;
+	margin-left:40px;
+}	
+.iframe-container2{
+	width:45%;
+	margin-left:40px;
+}
 
 
 /* Clear floats after the columns */
@@ -303,17 +311,73 @@ div.row div>figcaption{
   #header2 > p{
 	margin-top: 10px;
   }
-  .iframe-container{
+  #vid h2{
+	  margin:0px;
+	  margin-bottom:5px;
+  }
+
+  .iframe-container1{
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; 
+  padding-top: 56.25%; 
   height: 0;
+  float:left;
+  margin-left:28px;
 }
-.iframe-container iframe{
+  .iframe-container2{
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; 
+  height: 0;
+  clear:left;
+}
+.iframe-container1 iframe{
+  position: absolute;
+  top:8%;
+  left: 8%;
+  width: 80%;
+  height: 80%;
+  margin:0
+}
+.iframe-container2 iframe{
+  position: absolute;
+  top:8%;
+  left: 8%;
+  width: 80%;
+  height: 80%;
+  
+}
+@media screen and (max-width:600px){
+	  .iframe-container1{
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; 
+  height: 0;
+  float:left;
+  margin-left:28px;
+}
+  .iframe-container2{
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; 
+  height: 0;
+  clear:left;
+}
+.iframe-container1 iframe{
   position: absolute;
   top:0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
+  margin:0
+}
+.iframe-container2 iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  
+}
 }
 }
