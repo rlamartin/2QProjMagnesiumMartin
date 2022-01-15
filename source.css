@@ -1,0 +1,688 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  margin: 0;
+}
+hr{
+	border-style: none;
+	border-top-style: dashed;
+}
+/* Styles the header and adds a background image */
+#beegest{
+	
+	background-size:100% 100%;
+	height:500px;
+	background-image: url('../images/backgroundh.png');
+	position:relative;
+	left:0px;
+	background-repeat: no-repeat;
+}
+/* Also styles the header but adds a different background image*/
+#beegest2{
+	
+	background-size:100% 100%;
+	height:500px;
+	background-image: url('../images/backgroundh2.png');
+	position:relative;
+	left:0px;
+	background-repeat: no-repeat;
+}
+#beegest3{
+	
+	background-size:100% 100%;
+	height:500px;
+	background-image: url('../images/backgroundh3.png');
+	position:relative;
+	left:0px;
+	background-repeat: no-repeat;
+}
+#beegest4{
+	
+	background-size:100% 100%;
+	height:500px;
+	background-image: url('../images/backgroundh4.png');
+	position:relative;
+	left:0px;
+	background-repeat: no-repeat;
+}
+#beegest5{
+	
+	background-size:100% 100%;
+	height:500px;
+	background-image: url('../images/backgroundh5.png');
+	position:relative;
+	left:0px;
+	background-repeat: no-repeat;
+}
+/*Styles the footer*/
+#header1 {
+  background-color: #000000;
+  padding: 20px;
+  text-align: left;
+  height:260px;
+  color: white;
+}
+#header1 > div h2{
+	font-family: Franklin Gothic Medium;
+	text-align:center;
+	margin-right:40px
+ }
+#header1 > div > ul  li{
+	font-family: Times;
+	font-size: 20px;
+}
+/*Resizes the sources to 70% */
+#header1 > #header2{
+		float:left;
+		width:50%
+}	
+#header1 > #header2 > ul {
+		margin-left: -40px;
+		padding-right:15px; 
+		list-style:none;
+}
+#header1 > #header2 > ul li{
+		font-family:Times;
+		font-size:12px;
+}
+#header1 > #header2 > p{
+	font-family: Times; 
+	font-size:12px;
+	text-align:center;
+	
+	
+}
+.iconsplit{
+	width:50%; 
+	height:32px 
+}
+.icon{
+	height:32px; 
+	width:30px; 
+	position:relative;
+	top:5%;
+	left:42%
+}
+.sprite{
+	width:33px;
+	height:32px;
+	background: url('../images/icon.png') no-repeat -182px -17px;
+}	
+.sprite:hover{
+	background: url('../images/icon.png') no-repeat -182px -91px;
+}
+.sprite2{
+	height:32px;
+	width:33px;
+	background: url('../images/icon.png') no-repeat -354px -16px;
+}	
+.sprite2:hover{
+	background: url('../images/icon.png') no-repeat -354px -91px;
+}
+
+/*Resizes the About section to 30%*/
+#header1 > #header3{
+	float:right;
+	width:50%;
+	position:relative;
+}	
+#header1 > #header3 > p{
+	font-family: Times; 
+	font-size:12px;
+	text-align:center;
+}
+ #header1 > #header3 .sprite {
+	overflow:hidden;
+	right:12%
+			}
+
+/* Style the navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Changes color on hover */
+.topnav a:hover {
+  color: white;
+  text-decoration:underline;
+  background-color:gray ;
+}
+
+/* Styles the content */
+.column1 {
+	display:block;
+  float: right;
+  width: 50%;
+  padding: 15px;
+  word-spacing:2px;
+  clear:right;
+  margin: 20px 10px 5px 0px;
+}
+#specialcolumn1 {
+	display:block;
+  float: right;
+  width: 30%;
+  padding: 15px;
+  word-spacing:2px;
+  clear:right;
+  margin: 20px 10px 5px 0px;
+}
+#column1 {
+	display:block;
+  width: 100%;
+  padding: 15px;
+  word-spacing:2px;
+  clear:right;
+  margin: 20px 10px 5px 0px;
+}
+#column1alt{
+  display:block;
+  width: 45%;
+  padding: 15px;
+  word-spacing:2px;
+  clear:right;
+  margin: 20px 10px 5px 0px;
+}
+#column2alt{
+	float:left;
+	width: 50%;
+	margin:20px 0px 0px ;
+	border: 2px solid white;
+	overflow:hidden;
+	padding:15px 15px 15px 40px;
+	line-height:30px;
+	left:25%
+}
+div#column2alt > div > h1{
+	font-family: Franklin Gothic Medium;
+	font-size:30px;
+	text-align:center
+}
+div#column2alt > div  {
+	border:3px solid black
+}
+div#column2alt > div > p {
+	text-align:center;
+	margin-left:40px;
+}
+
+
+div#column1 > ul li{
+	font-family: Times New Roman
+}
+div#column1 > h1{
+	font-size:30px;
+}
+div.column1 > h1, h4, p,hr{
+	margin-right: 50px;
+}
+div.column1 > h1{
+	font-size:30px;
+}
+div.column1 > p{
+	text-indent: 20px;
+}
+div.column1 > h1, h4{
+	font-family: Franklin Gothic Medium;
+}
+div#specialcolumn1 > h1, h4, p,hr{
+	margin-right: 50px;
+}
+div#specialcolumn1 > h1{
+	font-size:30px;
+}
+div#specialcolumn1 > p{
+	text-indent: 20px;
+}
+div#specialcolumn1 > h1, h4{
+	font-family: Franklin Gothic Medium;
+}
+div.column2 > div > h1{
+	font-family: Franklin Gothic Medium;
+	font-size:30px;
+	text-align:center
+}
+div.column2 > div {
+	border:3px solid black
+}
+div.column2 > div > p {
+	text-align:center;
+	margin-left:40px;
+}
+/*Styles the images*/
+.column2{
+	float:left;
+	width: 45%;
+	margin:20px 0px 0px ;
+	border: 2px solid white;
+	overflow:hidden;
+	padding:15px 15px 15px 40px;
+	line-height:30px;
+}
+.specialcolumn2{
+	float:left;
+	width: 55%;
+	margin:20px 0px 0px ;
+	border: 2px solid white;
+	overflow:hidden;
+	padding:15px 15px 15px 40px;
+	line-height:30px;
+	left:5%;
+	top:5%
+}
+.specialcolumn2:hover{
+	transform: scale(1.35, 1.35);
+}
+
+/*Yes, this is a separate id for the image with a person coughing*/
+#column2{
+	float:left;
+	width: 45%;
+	margin:20px 0px 0px ;
+	border: 2px solid white;
+	overflow:hidden;
+	padding:15px 15px 15px 40px;
+	line-height:30px;;
+}
+#column2 > img{
+	width: 95%;
+}
+#column3{
+	float:left;
+	height:100%;
+	width: 45%;
+	margin:20px 0px 0px ;
+	border: 2px solid white;
+	overflow:hidden;
+	padding:15px 15px 15px 40px;
+	line-height:30px;
+}	
+#column3 > img{
+	width:90%;
+	height: 90%;
+}	
+#vid{
+	
+	width:90%;
+	margin-left: 40px;
+}
+.iframe-container1{
+	float:right;
+	width:45%;
+	margin-left:40px;
+}	
+.iframe-container2{
+	width:45%;
+	margin-left:40px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div.row div>img{
+	border:3px solid black; 
+	padding: 5px;
+	width: 100%;
+	display:block; 
+	margin-left:auto; 
+	margin-right: auto;
+}
+div.row div>figcaption{
+	font-style:italic; 
+	text-align: center; 
+	clear:left;
+}
+/*Styles the upper navigation bar*/
+#topnav {
+  background-color: #333;
+  overflow:hidden;
+    float:left;
+  width:100%;
+  height:100%;
+}
+#topnav a{
+	  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float:right;
+}
+/*Styles the lower navigation bar*/
+#topnav1 {
+  background-color: #333;
+  overflow:hidden;
+    float:right;
+  width:100%;
+  height:100%;
+}
+#topnav1 a{
+	  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float:right;
+}
+#topnav2 {
+  background-color: #333;
+  overflow:hidden;
+    float:left;
+  width:50%;
+  height:100%;
+}
+#topnav2 a{
+	  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float:left;
+}
+#topnav3{
+	  background-color: #333;
+  overflow:hidden;
+    float:right;
+  width:50%
+}
+#topnav3 a{
+	  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float:right;
+}
+#topnav4 {
+  background-color: #333;
+  overflow:hidden;
+    float:left;
+  width:100%;
+  height:100%;
+}
+#topnav4 a{
+	  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float:left;
+}
+#topnav a:hover {
+  color: white;
+  text-decoration:underline;
+}
+#topnav1 a:hover {
+  color: white;
+  text-decoration:underline;
+}
+#topnav2 a:hover{
+  color: white;
+  text-decoration:underline;
+ } 
+#topnav3 a:hover {
+  color: white;
+  text-decoration:underline;
+} 
+#topnav4 a:hover {
+  color: white;
+  text-decoration:underline;
+}
+
+/* Responsive layout - fixes the layout if tab is resized */
+@media screen and (max-width:1200px) {
+
+	.row{
+		margin-top:-60px;
+	}  
+	div#header2 > div.icon{
+		position:relative;
+		left:42%
+	}
+	.iconsplit{
+	margin-top:10px
+}
+	#column1alt{
+		width:100%;
+		position:none;
+		left:
+	}
+	#column2alt{
+		width:100%;
+		position:none;
+		left:0%
+	}	
+  .column2 {
+    width: 100%;
+	height:100%;
+	margin: 0px ;
+	border-right-color: white;
+  }
+  .specialcolumn2{
+	width: 100%;
+	position:none;
+	left:0%
+}
+  .specialcolumn2:hover{
+	transform: scale(1,1);
+}
+  #column2{
+	  width:100%;
+	  	border-right-color: white;
+  }
+   #column3{
+	   width:100%;
+	   
+	   	  	border-right-color: white;
+	   margin-right:20px;
+   }  
+
+  .column1{
+	width:100%
+  }
+  div.column1 > h1,h4,p,hr{
+	margin: 0px 30px;
+  }
+  div.column1 > h4{
+	margin-bottom: 10px;
+  }
+  div.column2 > div > hr, p{
+	
+}
+  #specialcolumn1{
+	width:100%
+  }
+  div#specialcolumn1 > h1,h4,p,hr{
+	margin: 0px 30px;
+  }
+  div#specialcolumn1 > h4{
+	margin-bottom: 10px;
+  }
+  div.column2 > div > hr, p{
+	
+}
+   .topnav a{
+	clear:left;	
+  } 
+  #column1{
+	width:100%;
+  }
+  div#column1 > h1,h4,p,hr{
+	margin: 0px 30px
+  }
+  #beegest{
+  display:block;
+	background-size:100% 80%;
+	height:100%
+	margin-top:0px;
+	}
+  #beegest2{
+  display:block;
+	background-size:100% 80%;
+	height:100%
+	margin-top:0px;
+	}	
+  #beegest3{
+  display:block;
+	background-size:100% 80%;
+	height:100%
+	margin-top:0px;
+	}	
+	 #beegest4{
+  display:block;
+	background-size:100% 80%;
+	height:100%
+	margin-top:0px;
+	}
+ #beegest5{
+  display:block;
+	background-size:100% 80%;
+	height:100%
+	margin-top:0px;
+	}	
+  #topnav1{
+	width:100%
+  }
+  #topnav2{
+	width:50%
+  }
+  #topnav3{
+	width:50%
+  }   
+  #header1{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+  }
+  #header1 > div h2{
+	margin-right:0;
+ }
+   #header2{
+	width:100%;
+	height:200px;
+	
+  }
+   #header3{
+	width:100%;
+	height:200px;
+  }
+  hr{
+	margin-top:5px;
+	margin-bottom:20px;
+  }
+  #header2 > p{
+	margin-top: 10px;
+  }
+  #vid h2{
+	  margin:0px;
+	  margin-bottom:5px;
+  }
+
+  #header1 > #header2 a:link{
+	filter: 0;
+	position:relative;
+	left:40%
+}
+
+  .iframe-container1{
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; 
+  height: 0;
+  float:left;
+  margin-left:28px;
+}
+  .iframe-container2{
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; 
+  height: 0;
+  clear:left;
+}
+.iframe-container1 iframe{
+  position: absolute;
+  top:8%;
+  left: 8%;
+  width: 80%;
+  height: 80%;
+  margin:0
+}
+.iframe-container2 iframe{
+  position: absolute;
+  top:8%;
+  left: 8%;
+  width: 80%;
+  height: 80%;
+  
+}
+@media screen and (max-width:600px){
+	div#header2 > div.icon{
+		position:relative;
+		left:38%
+	}
+	  .iframe-container1{
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; 
+  height: 0;
+  float:left;
+  margin-left:28px;
+}
+  .iframe-container2{
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; 
+  height: 0;
+  clear:left;
+}
+.iframe-container1 iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  margin:0
+}
+.iframe-container2 iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+   }
+   #header2{
+	width:90%;
+	height:200px;
+	overflow:hidden
+	
+  }
+   #header3{
+	width:90%;
+	height:200px;
+	overflow:hidden
+  }
+  /* .specialcolumn2:hover{
+	transform: scale(1.,1.15);
+}*/
+  
+}
+}
+}
