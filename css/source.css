@@ -117,10 +117,10 @@ hr{
 .sprite2{
 	height:32px;
 	width:33px;
-	background: url('../images/icon.png') no-repeat -354px -16px;
+	background: url('../images/icon.png') no-repeat -296px -16px;
 }	
 .sprite2:hover{
-	background: url('../images/icon.png') no-repeat -354px -91px;
+	background: url('../images/icon.png') no-repeat -296px -91px;
 }
 
 /*Resizes the About section to 30%*/
@@ -272,6 +272,28 @@ div.column2 > div > p {
 	overflow:hidden;
 	padding:15px 15px 15px 40px;
 	line-height:30px;
+}
+.column2spec{
+	float:right;
+	width: 45%;
+	margin:20px 0px 0px ;
+	margin-top:31px;
+	border: 2px solid white;
+	overflow:hidden;
+	padding:15px 15px 15px 40px;
+	line-height:30px;
+}
+div.column2spec > div > h1{
+	font-family: Franklin Gothic Medium;
+	font-size:30px;
+	text-align:center
+}
+div.column2spec > div {
+	border:3px solid black
+}
+div.column2spec > div > p {
+	text-align:center;
+	margin-left:40px;
 }
 .specialcolumn2{
 	float:left;
@@ -446,9 +468,13 @@ div.row div>figcaption{
   color: white;
   text-decoration:underline;
 }
-
+@media screen and (min-width:1442px) {
+	.column2spec {
+		margin-top:310px;
+	}
+}
 /* Responsive layout - fixes the layout if tab is resized */
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1275px) {
 
 	.row{
 		margin-top:-60px;
@@ -471,6 +497,12 @@ div.row div>figcaption{
 		left:0%
 	}	
   .column2 {
+    width: 100%;
+	height:100%;
+	margin: 0px ;
+	border-right-color: white;
+  }
+    .column2spec {
     width: 100%;
 	height:100%;
 	margin: 0px ;
@@ -668,6 +700,12 @@ div.row div>figcaption{
   width: 80%;
   height: 80%;
    }
+     #column1{
+	width:100%;
+  }
+  div#column1 > h1,h4,p,hr{
+	margin: 0px 30px
+  }
    #header2{
 	width:90%;
 	height:200px;
