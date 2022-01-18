@@ -154,7 +154,13 @@ hr{
   padding: 14px 16px;
   text-decoration: none;
 }
-
+.topnav a {
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+			  
+	 -webkit-transition-property: background-color;
+	 transition-property: background-color;
+			}
 /* Changes color on hover */
 .topnav a:hover {
   color: white;
@@ -171,6 +177,27 @@ hr{
   word-spacing:2px;
   clear:right;
   margin: 20px 10px 5px 0px;
+}
+.column3 {
+	display:block;
+  float: right;
+  width: 50%;
+  padding: 15px;
+  word-spacing:2px;
+  clear:right;
+  margin: 20px 10px 5px 0px;
+}
+div.column3 > h1, h4, p,hr{
+	margin-right: 50px;
+}
+div.column3 > h1{
+	font-size:30px;
+}
+div.column3 > p{
+	text-indent: 20px;
+}
+div.column3 > h1, h4{
+	font-family: Franklin Gothic Medium;
 }
 #specialcolumn1 {
 	display:block;
@@ -273,11 +300,12 @@ div.column2 > div > p {
 	padding:15px 15px 15px 40px;
 	line-height:30px;
 }
+
 .column2spec{
 	float:right;
 	width: 45%;
 	margin:20px 0px 0px ;
-	margin-top:31px;
+	margin-top:105px;
 	border: 2px solid white;
 	overflow:hidden;
 	padding:15px 15px 15px 40px;
@@ -380,6 +408,7 @@ div.row div>figcaption{
   width:100%;
   height:100%;
 }
+
 #topnav a{
 	  display: block;
   color: #f2f2f2;
@@ -469,12 +498,18 @@ div.row div>figcaption{
   text-decoration:underline;
 }
 @media screen and (min-width:1442px) {
+	.column3{
+		margin-top:140px
+	}
+	#specialcolumn1{
+		margin-top:240px;
+	}
 	.column2spec {
-		margin-top:310px;
+		margin-top:340px;
 	}
 }
 /* Responsive layout - fixes the layout if tab is resized */
-@media screen and (max-width:1275px) {
+@media screen and (max-width:1200px) {
 
 	.row{
 		margin-top:-60px;
@@ -501,6 +536,9 @@ div.row div>figcaption{
 	height:100%;
 	margin: 0px ;
 	border-right-color: white;
+  }
+    .column3 {
+    width: 100%;
   }
     .column2spec {
     width: 100%;
