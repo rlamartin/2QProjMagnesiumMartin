@@ -155,8 +155,8 @@ hr{
   text-decoration: none;
 }
 .topnav a {
-	-webkit-transition-duration: 0.5s;
-	transition-duration: 0.5s;
+	-webkit-transition-duration: 0.75s;
+	transition-duration: 0.75s;
 			  
 	 -webkit-transition-property: background-color;
 	 transition-property: background-color;
@@ -215,6 +215,15 @@ div.column3 > h1, h4{
   word-spacing:2px;
   clear:right;
   margin: 20px 10px 5px 0px;
+}
+#column1 > ul{
+	 overflow-wrap: break-word; 
+	 word-wrap: break-word; 
+	 word-break: break-word;
+	 -ms-hyphens: auto;
+	 -moz-hyphens: auto;
+	 -webkit-hyphens: auto;
+	 hyphens: auto;
 }
 #column1alt{
   display:block;
