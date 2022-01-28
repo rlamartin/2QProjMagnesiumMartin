@@ -30,6 +30,7 @@ hr{
 	left:0px;
 	background-repeat: no-repeat;
 }
+/* Also styles the header but adds a different background image*/
 #beegest3{
 	
 	background-size:100% 100%;
@@ -39,6 +40,7 @@ hr{
 	left:0px;
 	background-repeat: no-repeat;
 }
+/* Also styles the header but adds a different background image*/
 #beegest4{
 	
 	background-size:100% 100%;
@@ -48,6 +50,7 @@ hr{
 	left:0px;
 	background-repeat: no-repeat;
 }
+/* Also styles the header but adds a different background image*/
 #beegest5{
 	
 	background-size:100% 100%;
@@ -74,31 +77,23 @@ hr{
 	font-family: Times;
 	font-size: 20px;
 }
-/*Resizes the sources to 70% */
+/*Styles the footer's section which contains the FB icon for my facebook page*/
 #header1 > #header2{
 		float:left;
 		width:50%
 }	
-#header1 > #header2 > ul {
-		margin-left: -40px;
-		padding-right:15px; 
-		list-style:none;
-}
-#header1 > #header2 > ul li{
-		font-family:Times;
-		font-size:12px;
-}
 #header1 > #header2 > p{
 	font-family: Times; 
 	font-size:12px;
 	text-align:center;
 	
-	
+/*Styles the WHO's FB and Twitter icon*/	
 }
 .iconsplit{
 	width:50%; 
 	height:32px 
 }
+/*Styles my FB icon*/
 .icon{
 	height:32px; 
 	width:30px; 
@@ -106,6 +101,7 @@ hr{
 	top:5%;
 	left:42%
 }
+/*Styles the Facebook sprites*/
 .sprite{
 	width:33px;
 	height:32px;
@@ -114,6 +110,7 @@ hr{
 .sprite:hover{
 	background: url('../images/icon.png') no-repeat -182px -91px;
 }
+/*Styles the Twitter sprites*/
 .sprite2{
 	height:32px;
 	width:33px;
@@ -123,7 +120,7 @@ hr{
 	background: url('../images/icon.png') no-repeat -296px -91px;
 }
 
-/*Resizes the About section to 30%*/
+/*Resizes the WHO's Twitter and FB icons section to 30%*/
 #header1 > #header3{
 	float:right;
 	width:50%;
@@ -154,6 +151,7 @@ hr{
   padding: 14px 16px;
   text-decoration: none;
 }
+/*Adds animations to the topnav*/
 .topnav a {
 	-webkit-transition-duration: 0.75s;
 	transition-duration: 0.75s;
@@ -347,7 +345,7 @@ div.column2spec > div > p {
 	transform: scale(1.35, 1.35);
 }
 
-/*Yes, this is a separate id for the image with a person coughing*/
+/*Yes, this is a separate id for the image*/
 #column2{
 	float:left;
 	width: 45%;
@@ -360,6 +358,7 @@ div.column2spec > div > p {
 #column2 > img{
 	width: 95%;
 }
+/*Yes, this is another separate id for the image*/
 #column3{
 	float:left;
 	height:100%;
@@ -374,6 +373,7 @@ div.column2spec > div > p {
 	width:90%;
 	height: 90%;
 }	
+/*Styles the videos*/
 #vid{
 	
 	width:90%;
@@ -396,6 +396,7 @@ div.column2spec > div > p {
   display: table;
   clear: both;
 }
+/*Styles the images*/
 div.row div>img{
 	border:3px solid black; 
 	padding: 5px;
@@ -580,17 +581,34 @@ div.row div>figcaption{
   div.column1 > h1,h4,p,hr{
 	margin: 0px 30px;
   }
-  div.column1 > h4{
+  div.column1 > h1{
 	margin-bottom: 10px;
   }
-  div.column2 > div > hr, p{
+    div.column1 > p{
+	margin-top: 10px;
+  }
+  div.column3 > h1,h4,p, hr{
+	margin: 0px 30px;
+}  
+  div.column3 > h1{
+	margin-bottom: 10px;
+  }
+div.column3 > h4{
+	margin-top:10px;
+	margin-bottom: 10px;
 	
-}
+  }
   #specialcolumn1{
 	width:100%
   }
   div#specialcolumn1 > h1,h4,p,hr{
 	margin: 0px 30px;
+  }
+   div#specialcolumn1 > p{
+	  margin-top:10px
+  }
+  div#specialcolumn1 > h1{
+	  margin-bottom:10px
   }
   div#specialcolumn1 > h4{
 	margin-bottom: 10px;
